@@ -16,7 +16,7 @@ This software provides a RESTful API for the Juma Editor (LOSD Version) which al
 
 2. For the juma-api to communicate with the Juma Editor, you need to specify the path to the Juma Editor base directory.
    Open the "../juma-api/index.php" file and specify the path of the Juma Editor base directory for the "$path_to_juma_base" variable.
-	 For example, if Juma Editor is located at "/home/user1/" then then the following should be specified: "$path_to_juma_base = '/home/user1/Juma/juma-uplift-master/';".
+	 For example, if Juma Editor is located at "/home/user1/" then the following should be specified: "$path_to_juma_base = '/home/user1/Juma/juma-uplift-master/';".
 	 
 ## Usage of the juma-api
 	 
@@ -25,7 +25,7 @@ This software provides a RESTful API for the Juma Editor (LOSD Version) which al
 	- Juma Editor mapping id number (?map)
 	- URL of the CSV source data that is to be converted into RDF (?source)
 
-- The result from the api will be RDF data (RDF version of the CSV data in the source file, specified according the the mapping from in the Juma Editor.
+- The result from the api will be RDF data (RDF version of the CSV data in the source file, specified according the mapping from the Juma Editor.
 
 - An example call to the api, where the Juma Editor user name is "user1", the mapping ID number is "10" and the URL of the source CSV data is "http://example.com/data/csvfile1", would be as follows:
 	- 'POST /juma-api?user=user1&map=10&source=http://example.com/data/csvfile1'
